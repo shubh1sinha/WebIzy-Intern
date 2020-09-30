@@ -1,0 +1,151 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+  background-color: white;
+}
+html{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    
+}
+
+.label{
+  background-color:rgba(128, 128, 128, 0.068);
+  padding: 25px;
+  text-align: left;
+}
+
+.row{
+  width:100%;
+  padding-bottom: 20px;
+  background-color:white;
+  box-sizing: border-box;
+  
+}
+.column {
+  float: left;
+  width: 33%;
+  padding-top: 40px;
+  background-color: white;
+  box-sizing: border-box;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 5px;
+}
+
+.row1{
+  width:100%;
+  padding-bottom: 20px;
+  background-color:white;
+  box-sizing: border-box;
+  
+}
+.column1 {
+  float: left;
+  width: 50%;
+  padding-top: 40px;
+  background-color: white;
+  box-sizing: border-box;
+
+}
+
+/* Clearfix (clear floats) */
+.row1::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 5px;
+}
+
+/** Contact Form**/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: blue;
+  background-color:rgba(128, 128, 128, 0.068);
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: white;
+  color:  #7ed6df;
+  padding: 12px 20px;
+  border-color: #7ed6df;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+input[type=submit]:hover {
+  background-color:  #7ed6df;
+  color: white;
+  font-size: 18px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+
+/** footer Part**/
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li{
+  font-size: 12px;
+}
+
+
+.ft-title {
+  color: rgb(26, 4, 4);
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  padding-bottom: 0.625rem;
+}
+/* Sticks footer to bottom */
+.container {
+  flex: 1;
+}
+/* Footer main */
+.ft-main {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ft-main a{
+ color: black;
+ text-decoration: none;
+}
+.ft-main a:hover{
+ color: #7ed6df;
+ text-decoration: none;
+}
+
+@media only screen and (min-width: 29.8125rem /* 477px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem /* 1240px */) {
+  .ft-main {
+    justify-content: space-evenly;
+  }
+}
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 12.5rem;
+}
