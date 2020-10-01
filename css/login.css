@@ -139,3 +139,61 @@ input[type=submit]:hover {
   background-color: white;
   padding: 20px;
 }
+
+.row1{
+  width:100%;
+  padding-bottom: 20px;
+  background-color:white;
+  box-sizing: border-box;
+  column-gap: 20px;
+}
+.column1 {
+  float: left;
+  width: 25%; 
+  background-color: white;
+  box-sizing: border-box;
+  height: 50px;
+  padding-left: 30px; 
+  
+
+}
+
+/** Header Part**/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.856);
+  padding-top: 10px;
+  padding-left: 20 px;
+  padding-right: 10px;   
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #7ed6df;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #7ed6df;
+}
+.topnav .search-container {
+  float: right;
+  padding-right:100px;;
+}

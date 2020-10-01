@@ -149,3 +149,43 @@ li{
   padding: 1.25rem;
   min-width: 12.5rem;
 }
+
+/** Header Part**/
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  text-decoration: none;
+  border-bottom: 2px solid rgba(211, 211, 211, 0.856);
+  padding-top: 10px;
+  padding-left: 20 px;
+  padding-right: 10px;   
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #7ed6df;
+  text-decoration: none;
+}
+
+.topnav a.active {
+  background-color: white;
+  color: #7ed6df;
+}
+.topnav .search-container {
+  float: right;
+  padding-right:100px;;
+}
