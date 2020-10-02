@@ -1,78 +1,23 @@
 body, html {
   height: 100%;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
   width: 100%;
-  text-decoration: none;
+  background-color: white;
 }
 html{
-      overflow-x: hidden ;
+    overflow-x: hidden ;
     overflow-y: scroll;
     
 }
 
-.hero-image {
-  background-image:  url("img/slide1.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position:static;
-  
-}
-.row{
-  width:100%;
-  padding-left: 4%;
-  padding-bottom: 20px;
-  background-color:white;
-  box-sizing: border-box;
-  
-}
-.column {
-  float: left;
-  width: 25%;
-  padding: 20px;
-  background-color: white;
-  box-sizing: border-box;
-  border: 2px groove rgba(128, 128, 128, 0.068);
-
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  padding: 5px;
-}
-
-.text {
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.397);
-}
 .label{
   background-color:rgba(128, 128, 128, 0.068);
-  padding: 30px;
-  text-align: center;
-}
-.product-button{
-  margin: auto;
-  color: #7ed6df;
-  text-decoration: none;
-  border: 2px solid;
-  padding: 8px 24px;
-  border-radius: 10px;
-  text-align:center;
+  padding: 25px;
+  text-align: left;
 }
 
-.product-button:hover{
-  background-color: #7ed6df;
-  color:white;
-  text-decoration: none;
-}
-
-
-/** Footer**/
+/** footer Part**/
 ul {
   list-style: none;
   padding-left: 0;
@@ -97,7 +42,6 @@ li{
   padding: 1.25rem 1.875rem;
   display: flex;
   flex-wrap: wrap;
-  background-color:rgba(128, 128, 128, 0.068);
 }
 .ft-main a{
  color: black;
@@ -122,7 +66,6 @@ li{
   padding: 1.25rem;
   min-width: 12.5rem;
 }
-
 
 /** Header Part**/
 .topnav {
@@ -164,5 +107,31 @@ li{
   padding-right:100px;;
 }
 
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  width: 100%;
+  background-color: white;
+}
+html{
+    overflow-x: hidden ;
+    overflow-y: scroll;
+    
+}
+.product-button{
+  margin: auto;
+  color: #7ed6df;
+  text-decoration: none;
+  border: 2px solid;
+  padding: 8px 24px;
+  border-radius: 10px;
+  text-align:center;
+}
 
+.product-button:hover{
+  background-color: #7ed6df;
+  color:white;
+  text-decoration: none;
+}
 
